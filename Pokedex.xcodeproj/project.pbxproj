@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000214641ED38D2500ED291F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000214631ED38D2500ED291F /* Pokemon.swift */; };
 		005A30BA1ECE5174009B5AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A30B91ECE5174009B5AD9 /* AppDelegate.swift */; };
 		005A30BC1ECE5174009B5AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A30BB1ECE5174009B5AD9 /* ViewController.swift */; };
 		005A30BF1ECE5174009B5AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005A30BD1ECE5174009B5AD9 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000214631ED38D2500ED291F /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		005A30B61ECE5174009B5AD9 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005A30B91ECE5174009B5AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		005A30BB1ECE5174009B5AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		005A30E71ECE5392009B5AD9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				000214631ED38D2500ED291F /* Pokemon.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				005A30BC1ECE5174009B5AD9 /* ViewController.swift in Sources */,
 				005A30BA1ECE5174009B5AD9 /* AppDelegate.swift in Sources */,
+				000214641ED38D2500ED291F /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +548,7 @@
 				005A30E01ECE5174009B5AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005A30E11ECE5174009B5AD9 /* Build configuration list for PBXNativeTarget "PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +557,7 @@
 				005A30E31ECE5174009B5AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005A30E41ECE5174009B5AD9 /* Build configuration list for PBXNativeTarget "PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +566,7 @@
 				005A30E61ECE5174009B5AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
