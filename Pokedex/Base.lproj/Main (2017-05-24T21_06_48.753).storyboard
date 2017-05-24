@@ -29,8 +29,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWN-Q6-SHg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGY-QG-H7l">
-                                        <rect key="frame" x="120.5" y="27" width="134" height="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGY-QG-H7l">
+                                        <rect key="frame" x="119" y="27" width="137" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="134" id="ePt-vJ-LVJ"/>
                                             <constraint firstAttribute="height" constant="30" id="nG5-nu-3nd"/>
@@ -39,26 +39,12 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVX-L4-zk0">
-                                        <rect key="frame" x="341" y="31" width="26" height="26"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="26" id="cJV-l1-z0n"/>
-                                            <constraint firstAttribute="width" constant="26" id="g7i-2M-sYe"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="music.png"/>
-                                        <connections>
-                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Er1-dg-KVw"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="kVX-L4-zk0" secondAttribute="trailing" constant="8" id="5TE-HB-kaI"/>
-                                    <constraint firstAttribute="bottom" secondItem="kVX-L4-zk0" secondAttribute="bottom" constant="8" id="6Ad-Hq-DCy"/>
                                     <constraint firstAttribute="bottom" secondItem="GGY-QG-H7l" secondAttribute="bottom" constant="8" id="Gl8-3V-Rfo"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="S0A-ia-6ED"/>
                                     <constraint firstAttribute="height" constant="65" id="ba9-ma-YSX"/>
-                                    <constraint firstItem="GGY-QG-H7l" firstAttribute="centerX" secondItem="dWN-Q6-SHg" secondAttribute="centerX" id="tmU-Pc-EBf"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="beC-66-Mzd">
@@ -151,6 +137,5 @@
     <resources>
         <image name="4" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
-        <image name="music.png" width="100" height="100"/>
     </resources>
 </document>
