@@ -159,6 +159,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
     }
     
+    //prepare segue data for use by destination view controller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "PokemonDetailVC" {
